@@ -2,6 +2,8 @@ package HGF::Protocol::http;
 
 use base qw(LWP::Protocol::http);
 
+our $VERSION = '0.01';
+
 # Implements a connect timeout of 2 sec
 # Source: http://cpanforum.com/posts/10170
 sub _new_socket {
